@@ -1,0 +1,70 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.form .card {
+    width: 50%;
+    background: white;
+    height: 350px;
+    border: none;
+    border-radius: 35px;
+    margin: 70px auto 0;
+    box-shadow: 0px 4px 30px rgba(72, 72, 72, 0.05);
+
+}
+
+.form .card .title h2 {
+    font-weight: 600;
+    width: 85%;
+    margin: 50px auto 0;
+    color: #212121;
+    font-size: 26px;
+
+}
+
+.form .card .forms {
+    width: 85%;
+    margin: 40px auto 0;
+
+}
+
+.form .card .forms label {
+    font-weight: 500;
+    color: #212121;
+
+}
+
+.form .card .forms input,
+.form .card .forms textarea {
+    border-radius: 10px;
+    height: 45px;
+    font-size: 15px;
+
+}
+
+.form .card .forms input::-webkit-input-placeholder {
+    font-size: 14px;
+    letter-spacing: .5px;
+    color: #a5a5a5;
+
+}
+
+.form .btn-add {
+    width: 85%;
+    margin: 40px auto 0;
+
+}
+
+.form .btn-add .btn {
+    background: #E84545;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+
+}

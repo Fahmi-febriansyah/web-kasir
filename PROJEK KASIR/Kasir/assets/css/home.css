@@ -1,0 +1,157 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FDFDFD;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar .container .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .container .navbar-nav button {
+    background-color: #E84545 !important;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+
+}
+
+.search .input-box {
+    width: 80%;
+    border-radius: 50px;
+    background: white;
+    margin: 35px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 30px rgba(72, 72, 72, 0.05);
+
+}
+
+.search .input-box input {
+    border-radius: 50px;
+    color: #8B8B8B;
+    outline: none;
+    border: none;
+    width: 60%;
+    height: 85px;
+    padding: 30px 40px;
+
+}
+
+.search .input-box input::-webkit-input-placeholder {
+    color: #8B8B8B;
+    letter-spacing: .5px;
+
+}
+
+.search .input-box button {
+    border: none;width: 150px;
+    height: 65px;
+    margin-right: 10px;
+    background: #E84545;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.kategori {
+    margin-top: 50px;
+
+}
+
+.kategori .dropdown .btn{
+    padding: 13px 37px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #E84545;
+
+}
+
+.food {
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.food .card {
+    border: none;
+    width: 355px;
+    border-radius: 35px;
+    height: 510px;
+    background: white;
+    box-shadow: 0px 4px 35px rgba(72, 72, 72, 0.1);
+
+}
+
+.food .card img {
+    width: 310px;
+    height: 257px;
+    margin: 23px auto;
+    border-radius: 35px;
+
+}
+
+.food .card .desk {
+    width: 310px;
+    margin: 5px auto 0;
+
+}
+
+.food .card .desk h4 {
+    font-weight: 600;
+    color: 212121;
+    font-size: 26px;
+
+}
+
+.food .card .desk h2 {
+    font-weight: 500;
+    color: #484848;
+    font-size: 20px;
+    margin-top: 2px;
+
+}
+
+.food .card .btn {
+    width: 310px;
+    border: none;
+    height: 64px;
+    background-color: #E84545;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 42px auto 10px;
+
+}
+
+.modal .modal-title {
+    font-weight: 600;
+    color: #212121;
+
+}
+
+.modal .modal-footer .btn {
+    background: #E84545;
+    color: white;
+    border-radius: 50px;
+    padding: 13px 25px;
+
+}

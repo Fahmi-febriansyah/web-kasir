@@ -1,0 +1,20 @@
+.container1 .card {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 .cardToken {
+    padding: 25px 50px;
+    margin-top: 50px !important;
+    height: max-content;
+    margin-bottom: 50px;
+
+}
+
+.container1 .card h3 {
+    font-size: 50px;
+
+}

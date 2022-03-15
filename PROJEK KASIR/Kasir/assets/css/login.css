@@ -1,0 +1,29 @@
+.form .card .forms {
+    margin: 15px auto 0 !important;
+            
+}
+
+.form .btn-add .btn {
+    padding: 10px 40px !important;
+
+}
+
+.form .card {
+	height: 450px !important;
+    margin-top: 30px !important;
+
+}
+
+.container .navbar-brand {
+	color: white;
+	font-weight: bold;
+
+}
+
+body {
+	background-color: none !important;
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}

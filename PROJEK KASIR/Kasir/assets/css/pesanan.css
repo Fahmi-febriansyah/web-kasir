@@ -1,0 +1,36 @@
+.cart h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+
+.cart .detail-box .title h3 {
+    font-size: 22px !important;
+    margin-left: 10px;
+    width: max-content;
+
+}
+
+.cart .detail-box .title h3 span {
+    color: #929292;
+
+}
+
+.cart .detail-box .title {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cart .aksi .btn-warning {
+    background-color: #FFC107 !important;
+    color: #212121;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 30px;
+    font-weight: 500;
+
+}
